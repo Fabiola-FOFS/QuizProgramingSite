@@ -10,12 +10,46 @@
                 <p>Teste seus conhecimentos em programação e veja qual a sua pontuação você consegue!</p>
             </header>
             <main>
+                <!--introdução-->
                 <section>
                     <h2><strong>Sobre esse quiz</strong></h2>
                     <p> este <strong>quiz</strong> foi desenvolvido para testar seus conhecimentos</p>
                     <p> você poderá encontrar alguns acrônimos como <abbr title= "HyperText Markup Language"> <em>HTML</em></abbr> e <abbr title= "Cascading Style Sheets"> <em>CSS</em></abbr>, que são comumente usados em questões relacionadas a desenvolvimento web</p>
                     <p> você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br> Desafie-se com este QUIZ!</p>
                     
+                </section>
+                <!--Pergunta 1:múltipla escolha-->
+                <section>
+                    <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas web?</h2>
+                    <form>
+                        <input type="radio" value="Python" id="p1a" name="pergunta1"> <label for="p1a">Python</label><br>
+<!--linka o id do input com a palavra dentro do label-->
+                        <input type="radio" value="HTML" id="p1b" name="pergunta1"> <label for="p1b">HTML</label><br>
+                        <input type="radio" value="Javascript" id="p1c" name="pergunta1"> <label for="p1c">Javascript</label><br>
+                        <input type="radio" value="Ruby" id="p1d" name="pergunta1"> <label for="p1d">Ruby</label><br>
+                    </form>
+                </section>
+                <!--Pergunta 2: texto -->
+                <section>
+                    <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ____</h2>
+                    <form>
+                        <input type="text" id="p2" name="pergunta2" placeholder="digite sua resposta ...">
+                    </form>
+                  
+                </section>
+                <!--Pergunta 3: SENHA -->
+                <section>
+                    <h2>Pergunta 3: escreva um exemplo de senha forte</h2>
+                    <form>
+                        <input type="password" id="p3" name="pergunta3" placeholder="digite a senha aqui ...">
+                    </form>
+                </section>
+                <!--Pergunta 4: data-->
+                <section>
+                    <h2>Em que ano o HTML lançou sua primeira versão?</h2>
+                    <form> 
+                        <input type="date" id="p4" name="pergunta4">
+                    </form>
                 </section>
             </main>
             <footer></footer>
